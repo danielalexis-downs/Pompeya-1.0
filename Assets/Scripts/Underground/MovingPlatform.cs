@@ -3,7 +3,7 @@ using UnityEngine;
 public class MovingPlatform : MonoBehaviour
 {
  public float fallDelay = 0.2f;
-    public float fallSpeed = 1.1f;
+    public float fallSpeed = 0.8f;
 
     private bool isFalling = false;
     private float fallTimer = 0f;
