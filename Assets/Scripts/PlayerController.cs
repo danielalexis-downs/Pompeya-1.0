@@ -33,6 +33,10 @@ public class PlayerController : MonoBehaviour
 
     void OnCollisionExit2D(Collision2D col)
     {
+
+        Debug.Log("Colisión con: " + col.gameObject.name);
+
+        
         if (col.gameObject.CompareTag("Platform"))
         {
             isGrounded = false;
